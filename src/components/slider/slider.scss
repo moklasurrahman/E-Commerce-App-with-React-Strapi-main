@@ -1,0 +1,47 @@
+.slider{
+    height: calc(100vh - 50px);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  
+    .container{
+      width: max-content;
+      height: 100%;
+      display: flex;
+      transition: all 1s ease;
+      object-fit: cover;
+  
+      img{
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .icons{
+      width: fit-content;
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 100px;
+      gap: 10px;
+      margin: auto;
+      color: white;
+  
+      .icon{
+        width: 50px;
+        height: 50px;
+        border: 1px solid #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        background-color: #999;
+        &:hover{
+          background-color: green;
+        }
+      }
+    }
+  }

@@ -1,0 +1,94 @@
+.navbar{
+   .warper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-bottom: 1px solid lightblue;
+    height: 50px;
+    .left{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+            border-bottom: 1px dotted green;
+        }
+        img{
+            width: 30px;
+            height: 20px;
+        }
+        
+        span{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+   
+   
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        .logo{
+            font-size: 25px;
+            font-weight: 900;
+            cursor: pointer;
+            padding: 2px;
+            border-radius: 10px;
+            color: green;
+        }
+    }
+    .right{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: flex-end;
+        .item{
+            display: flex;
+            align-items: center;
+            position: relative;
+            .icon{
+                font-size: 22px;
+            }
+            span{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 700;
+            } 
+            
+            .count{
+                width: 13px;
+                height: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2px;
+                font-size: 10px;
+                font-weight: 500;
+                background-color: rgb(61, 90, 219);
+                color: white;
+                position: absolute;
+                border-radius: 50%;
+                top: -10px;
+                left: 10px;
+    
+            }
+        }
+
+    }
+   }
+}

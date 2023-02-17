@@ -1,0 +1,40 @@
+.contacts-t{
+    background-color: rgb(77, 148, 230);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span{
+            font-weight: 500;
+        }
+        input{
+            padding: 5px;
+            border: none;
+            border-radius: 5px 0px 0px 5px;
+             &:focus{
+                outline: none;
+             }
+        }
+        button{
+            padding: 5px;
+            color: white;
+            background-color: #333;
+            border-radius: 0 5px 5px 0px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .icon{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+}
